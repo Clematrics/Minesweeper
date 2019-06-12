@@ -21,4 +21,4 @@ You can also watch an AI solve the game by calling the function `party_ai m n la
 Because OCaml cannot handle too big numbers, do not use too large fields (30x30 is a maximum), or the AI will take forever to solve the game.
 The AI uses backtracing to compute probabilities of the presence of a mine on every hidden cell. It detects contradictions and make the best moves according to the probabilities. However, the AI does not take yet into account information it can obtain from a cell, despite the probability is not minimal, so there is room for improvement.
 
-![OCaml screenshot](http://github.com/Clematrics/Minesweeper/blob/master/ocaml%20screenshot.png)
+![OCaml screenshot](https://github.com/Clematrics/Minesweeper/blob/master/ocaml%20screenshot.png)
